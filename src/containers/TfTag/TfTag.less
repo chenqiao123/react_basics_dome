@@ -1,0 +1,54 @@
+@import "../../assets/base.less";
+.tagItem {
+    width: 100%;
+    padding: 2% 2% 0 2%;
+
+    .title {
+        font-size: 16px;
+    }
+    .content {
+        box-shadow: none;
+        .tag {
+            display: inline-block;
+            margin: 0 1%;
+            width: 134px;
+            height: 40px;
+            font-size: 12px;
+            text-align: center;
+            font-family:PingFang SC;
+            font-weight:400;
+            color:fade(@heise,65%);
+            line-height: 40px;
+            border:1px solid rgba(232,232,232,1);
+            border-radius:20px;
+            a{
+                width: 100%;
+                display: inline-block;
+                color: inherit;
+            }
+            // &:active{
+            //   color: @baise;  
+            //   a{ color: inherit;}
+            // }
+        }
+        .ant-tag-checkable-checked{
+            color: @baise;  
+        }
+        
+    }
+}
+.tagfooterPopover{
+    width: 200px;
+}
+.tagfooter{
+    overflow: hidden;
+.item{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 2%;
+    .ant-btn-default{
+        margin-right: 8px;
+    }
+}
+}

@@ -1,0 +1,159 @@
+.wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper .page_top {
+  padding: 0 2%;
+  background-color: #fff;
+  border-bottom: #E9E9E9;
+}
+.wrapper .page_top .ant-row-flex {
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+.wrapper .page_top .wraper_group {
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper .page_top .wraper_group .topshow {
+  overflow: hidden;
+  margin: .5% 0;
+}
+.wrapper .page_top .wraper_group .topshow .item {
+  width: 33%;
+  float: left;
+}
+.wrapper .page_top .wraper_group .line {
+  overflow: hidden;
+}
+.wrapper .page_top .wraper_group .line ul {
+  list-style: none;
+}
+.wrapper .page_top .wraper_group .line ul li {
+  list-style: none;
+  float: left;
+  width: 71px;
+  text-align: center;
+  margin: 0 1%;
+  cursor: pointer;
+}
+.wrapper .page_top .wraper_group .line ul .active {
+  border-bottom: 2px solid #1f8ded;
+  color: #1f8ded;
+}
+.modalht {
+  max-height: 300px;
+  width: 346px;
+  overflow: hidden;
+}
+.modalht .wpr {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 356px;
+  max-height: 300px;
+}
+.modalht ul {
+  list-style-type: none;
+  padding: 0;
+  width: 346px;
+}
+.modalht ul .loading {
+  text-align: center;
+  margin-left: 140px;
+}
+.modalht ul li {
+  height: 55px;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modalht ul li .icon {
+  height: 32px;
+  line-height: 32px;
+  margin-top: 6px;
+  width: 32px;
+  background-color: #35CC62;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+.modalht ul li .error {
+  background-color: #f94673;
+}
+.modalht ul li .tips {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  width: 252px;
+  float: left;
+  color: rgba(51, 88, 123, 0.6);
+  margin: -8px 0 0 46px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.modalht ul li .text {
+  width: 252px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0!important;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px 0 12px;
+}
+.modalht ul li .nonea {
+  cursor: default;
+  color: #fff;
+}
+.cardItem {
+  width: 94%;
+  margin: 2% 0;
+  position: relative;
+  height: 188px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 7px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
+  opacity: 1;
+}
+.cardItem .cardTitle {
+  padding: 4%;
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.cardItem .cardContent {
+  overflow: hidden;
+  padding: 2%;
+}
+.cardItem .cardContent .item {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.cardItem .cardContent .item .itemTitle {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.cardItem .cardContent .item .itemValue {
+  font-size: 24px;
+  line-height: 32px;
+}
+.cardItem .cardBottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 2%;
+  background-color: #f7f9fa;
+  height: 40px;
+  text-align: center;
+}
+.cardItem .cardBottom .button {
+  width: 100%;
+  color: #1f8ded;
+}

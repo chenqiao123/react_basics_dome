@@ -1,0 +1,57 @@
+.ToolbarItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.ToolbarItems li {
+    padding: 0px 15px 0;
+}
+
+.ToolbarItems li:hover {
+    cursor: pointer;
+} 
+
+.ToolbarItems .move-up  {
+    margin-top: -3px;
+}
+
+.ProfilePopover {
+    min-width: 250px;
+}
+
+.ProfilePopover .ant-menu-inline {
+    border: none;
+}
+
+.ActionsPopover .ant-popover-inner-content, 
+.AlertsPopover .ant-popover-inner-content, 
+.ProfilePopover .ant-popover-inner-content {
+    padding: 0;
+}
+
+.ActionsPopover .ant-popover-arrow, .ActionsPopover .ant-popover-inner,
+.AlertsPopover .ant-popover-arrow, .AlertsPopover .ant-popover-inner,
+.ProfilePopover .ant-popover-arrow, .ProfilePopover .ant-popover-inner {
+    margin-top: -13px;
+    background: #3A84E2;
+}
+
+.Actions .ant-card-head, .Alerts .ant-card-head, .Profile .ant-card-head {
+    background-color: #3A84E2;
+}
+
+.Actions .ant-card-head-title, .Alerts .ant-card-head-title, .Profile .ant-card-head-title {
+    color: white;
+}
+
+.Actions .ant-card-bordered, .Alerts .ant-card-bordered, .Profile .ant-card-bordered {
+    border: none;
+}
+.Profile .ant-card-body{
+    padding: 0 9px;
+}

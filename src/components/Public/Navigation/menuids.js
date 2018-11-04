@@ -1,0 +1,1 @@
+export const MENU_LOGOUT = "106";

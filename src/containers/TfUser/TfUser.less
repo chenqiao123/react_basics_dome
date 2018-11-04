@@ -1,0 +1,50 @@
+@import "../../assets/base.less";
+.cardItem {
+    width: 94%;
+    margin: 2% 0;
+    position: relative;
+    height: 188px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 7px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.12);
+    opacity: 1;
+    .cardTitle {
+        padding: 4%;
+        font-size:16px;
+        font-family:PingFang SC;
+        font-weight:500;
+        line-height:24px;
+        color:rgba(0,0,0,0.85);
+    }
+    .cardContent {
+        overflow: hidden;
+        padding: 2%;
+        .item {
+            width: 50%;
+            display: inline-block;
+            text-align: center;
+            .itemTitle {
+                font-size: 12px;
+                color: fade(@heise,65%); 
+            }
+            .itemValue {
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+    }
+    .cardBottom {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        padding: 2%;
+        background-color: rgba(247,249,250,1);
+        height: 40px;
+        text-align: center;
+        .button {
+            width: 100%;
+            color: @button;
+        }
+    }
+}

@@ -1,0 +1,194 @@
+.wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
+.wrapper .page_top {
+  padding: 0 2%;
+  background-color: #fff;
+  border-bottom: #E9E9E9;
+}
+.wrapper .page_top .ant-row-flex {
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+.wrapper .page_top .wraper_group {
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper .page_top .wraper_group .topshow {
+  overflow: hidden;
+  margin: .5% 0;
+}
+.wrapper .page_top .wraper_group .topshow .item {
+  width: 33%;
+  float: left;
+}
+.wrapper .page_top .wraper_group .line {
+  overflow: hidden;
+}
+.wrapper .page_top .wraper_group .line ul {
+  list-style: none;
+}
+.wrapper .page_top .wraper_group .line ul li {
+  list-style: none;
+  float: left;
+  width: 71px;
+  text-align: center;
+  margin: 0 1%;
+  cursor: pointer;
+}
+.wrapper .page_top .wraper_group .line ul .active {
+  border-bottom: 2px solid #1f8ded;
+  color: #1f8ded;
+}
+.Alerts .ant-card-body {
+  padding: 12px;
+}
+.Alerts .ant-card-head-title {
+  padding: 12px 0;
+}
+.modalht {
+  max-height: 300px;
+  width: 346px;
+  overflow: hidden;
+}
+.modalht .wpr {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 356px;
+  max-height: 300px;
+}
+.modalht ul {
+  list-style-type: none;
+  padding: 0;
+  width: 346px;
+}
+.modalht ul .loading {
+  text-align: center;
+  margin-left: 140px;
+}
+.modalht ul li {
+  height: 55px;
+  line-height: 40px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modalht ul li .icon {
+  height: 32px;
+  line-height: 32px;
+  margin-top: 6px;
+  width: 32px;
+  background-color: #35CC62;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+}
+.modalht ul li .error {
+  background-color: #f94673;
+}
+.modalht ul li .tips {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  width: 252px;
+  float: left;
+  color: rgba(51, 88, 123, 0.6);
+  margin: -8px 0 0 46px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.modalht ul li .text {
+  width: 252px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0!important;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 12px 0 12px;
+}
+.modalht ul li .nonea {
+  cursor: default;
+  color: #fff;
+}
+.VisualImageItem {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 1%;
+}
+.VisualImageItem .top {
+  font-size: 16px;
+  padding: 2%;
+  border-bottom: 1px solid #EEEEEE;
+  margin-bottom: 1%;
+  font-weight: 800;
+}
+.VisualImageItem .top .tiao {
+  display: inline-block;
+  width: 4px ;
+  height: 20px;
+  background-color: #1f8ded;
+  vertical-align: middle;
+  margin-right: 1%;
+}
+.VisualImageItem .top .title {
+  vertical-align: middle;
+}
+.condition .ant-form-inline .ant-form-item {
+  width: 30%;
+}
+.butnExport {
+  text-align: right;
+}
+.tagItem {
+  width: 100%;
+  padding: 2% 2% 0 2%;
+}
+.tagItem .title {
+  font-size: 16px;
+}
+.tagItem .content {
+  box-shadow: none;
+}
+.tagItem .content .tag {
+  display: inline-block;
+  margin: 0 1%;
+  width: 134px;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 40px;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+}
+.tagItem .content .tag a {
+  width: 100%;
+  display: inline-block;
+  color: inherit;
+}
+.tagItem .content .ant-tag-checkable-checked {
+  color: #fff;
+}
+.tagfooterPopover {
+  width: 200px;
+}
+.tagfooter {
+  overflow: hidden;
+}
+.tagfooter .item {
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 2%;
+}
+.tagfooter .item .ant-btn-default {
+  margin-right: 8px;
+}
